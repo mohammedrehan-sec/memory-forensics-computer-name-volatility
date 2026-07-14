@@ -53,9 +53,10 @@ The retrieved registry value confirmed the system hostname as:
 ## Screenshots
 > <img width="1019" height="562" alt="Screenshot 2026-04-12 154752" src="https://github.com/user-attachments/assets/9cbe24b6-2842-4d88-9208-9032d45206b8" />
 <img width="572" height="202" alt="Screenshot 2026-04-12 155053" src="https://github.com/user-attachments/assets/27dd8155-14b7-4a94-8810-60b306cf4ce7" />
-> "C:\Users\rehan\Pictures\Screenshots\Screenshot 2026-04-16 151828.png"
-> "C:\Users\rehan\Pictures\Screenshots\Screenshot 2026-04-16 152016.png"
-> "C:\Users\rehan\Pictures\Screenshots\Screenshot 2026-04-16 153226.png"
+> <img width="790" height="568" alt="Screenshot 2026-04-16 151828" src="https://github.com/user-attachments/assets/5806232c-5bf9-4293-bfce-18544cde3ca0" />
+> <img width="727" height="571" alt="Screenshot 2026-04-16 152016" src="https://github.com/user-attachments/assets/cd13fa2d-1416-427f-a890-e906f7aa5aa8" />
+> <img width="903" height="531" alt="Screenshot 2026-04-16 153226" src="https://github.com/user-attachments/assets/e2302b65-0eb6-4979-9264-594d65a51e24" />
+
 
 ## Conclusion
 The forensic analysis successfully retrieved the computer name from the memory dump using Volatility registry analysis. By identifying the SYSTEM hive offset and querying the ComputerName registry key, the hostname **WIN-ETSA91RKCFP** was recovered without requiring access to the live system.
